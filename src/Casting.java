@@ -49,6 +49,9 @@ public class Casting {
         b1 = (byte) d3;  //// DOWNCAST -> perda de informação (maior para menor)
 
         System.out.println("b1: " + b1);
+        int i = 3;
+        int novo = 10 - 5 * 2 + --i;
+        System.out.println(novo);
 
     }
 }
